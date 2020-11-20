@@ -53,5 +53,5 @@ document.querySelector("#volumeSlider").addEventListener("change", function() {
 
 document.querySelector("#old").addEventListener("click", function() {
 	// video.filter.value = grayscale(100%);
-	document.getElementById("old").id = ".oldTime";
+	document.getElementById("old").id = "oldTime";
 	});
