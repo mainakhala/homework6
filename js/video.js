@@ -33,7 +33,7 @@ video.currentTime(video.currentTime() + 5);
 });
 
 document.querySelector("#mute").addEventListener("click",function() {
-	if (video.muted ===  true);
+	if (video.mute)
 		video.muted = false;
 		document.querySelector("#mute").innerHTML= "unmute";
 	else 
